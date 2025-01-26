@@ -11,12 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
         menu.classList.remove('bx-x');
         navbar.classList.remove('active');
     };
-
-    const typed = new Typed('.multiple-text', {
-        strings: ['Physical Fitness', 'Fat Loss', 'Strength Training', 'Weight Gain', 'Yoga'],
-        typeSpeed: 50,
-        backSpeed: 60,
-        backDelay: 1000,
-        loop: true,
-    });
 });
